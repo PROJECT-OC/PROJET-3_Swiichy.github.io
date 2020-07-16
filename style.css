@@ -29,7 +29,8 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #579C87;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    font-weight: bold;
     position: absolute;
     bottom: 0;
     width: 100%;
