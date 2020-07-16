@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: #579C87;
+    height: 125px;
+}
+.title_principal {
+    margin: auto;
+    font-size: 3em;
+    text-align: center;
+    color: #FACA49;
+    font-weight: 1000;
+}
