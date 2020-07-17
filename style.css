@@ -50,9 +50,9 @@ body {
 }
 
 .menu_cover {
-    box-shadow: 50px 5px 50px #8d8c8c;
+    box-shadow: 5px 5px 5px #8d8c8c;
     margin-bottom: 50px;
-    background-color: #fddcdc;
+    background-color: #FCDFDB;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -68,9 +68,103 @@ body {
     padding-bottom: 40px;
 }
 
-.span {
-
+.menu_cover__title {
+    color: black;
+    margin-top: 0px;
 }
+
+.menu_cover__imgnote {
+    width: 48px;
+}
+
+.menu_cover_byline {
+    color: black;
+    font-size: 2em;
+}
+
+.menu_cover_2 {
+    box-shadow: 5px 5px 5px #8d8c8c;
+    margin-bottom: 50px;
+    background-color: #FFF5FE;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_cover__title_2 {
+    background: linear-gradient(to right,#D8852E,#9861EF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.menu_cover_byline_2 {
+    color: #C77412;
+    font-size: 2em;
+}
+
+.menu_cover__title_2 {
+    background: linear-gradient(to right,#D8852E,#9861EF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_cover_3 {
+    box-shadow: 5px 5px 5px #8d8c8c;
+    margin-bottom: 50px;
+    background-color: #F9F9F9;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_cover__title_3 {
+    background: linear-gradient(to right,#133FE1,#62B1FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_cover_byline_3 {
+    color: #3F9FFA;
+    font-size: 2em;
+}
+
+.menu_cover_4 {
+    box-shadow: 5px 5px 5px #8d8c8c;
+    margin-bottom: 50px;
+    background-color: #FDFFFD;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_cover__title_4 {
+    background: linear-gradient(to right,#4A9E41,#BFFF7E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_cover_byline_4 {
+    color: #8DCC77;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    color: #FDCB46;
+    background-color: #579C87;
+    padding: 5px 40px;
+    border-radius: 10px;
+}
+
 /*GRID*/
 
 
@@ -87,9 +181,11 @@ body {
 }
 .legal_notice{
     margin-left: 1%;
+    font-family: Helvetica, sans-serif;
 }
 .contact{
     margin-right: 1%;
+    font-family: Helvetica, sans-serif;
 }
  .content_footer {
      color: #FACA49;
