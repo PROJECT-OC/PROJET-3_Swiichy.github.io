@@ -1,5 +1,5 @@
 main {
-    width: 40%;
+    width: 50%;
     height: auto;
     margin-bottom: 8.5%;
 }
@@ -33,7 +33,7 @@ ul {
     width: auto;
     display: flex;
     justify-content: space-between;
-    padding: 0% 10% 0% 10%;
+    padding: 0% 4% 0% 4%;
     font-size: 1.2em;
 }
 
@@ -47,7 +47,7 @@ ul {
 }
 
 .bottom_menu {
-    padding: 0% 10% 0% 10%;
+    padding: 0% 4% 0% 4%;
     display: flex;
     flex-direction: row;
     font-size: 1.2em;
@@ -69,3 +69,77 @@ ul {
     margin-right: 2%;
 }
 
+/*Menu 2*/
+
+.font_2 {
+    background-color: #FFF5FE;
+}
+
+.title_menu_2 {
+    font-size: 1.6em;
+    padding-top: 10%;
+}
+
+.list_price_2 {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 6.3% 0% 6.3%;
+    font-size: 1.2em;
+}
+
+.margin_bottom_page {
+    padding-bottom: 15%;
+}
+
+.color_2 {
+    color: #C67412;
+}
+
+.color_pma {
+    color: #D4934B;
+}
+
+.color_3 {
+    color: #A56799;
+}
+
+.color_pdp {
+    color: #AF77A4;
+}
+
+.color_4 {
+    color: #6E4CCC;
+}
+
+.color_gs {
+    color: #8060D2;
+}
+
+/*Menu 3*/
+.font_3 {
+    background-color: #EDEFEF;
+}
+.title_menu_3 {
+    padding-top: 10%;
+    font-size: 2em;
+}
+
+.list_price_3 {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 6.6% 0% 6.6%;
+    font-size: 1.2em;
+}
+
+.padding_bottom_page {
+    padding-bottom: 10%;
+}
+
+/*Menu 4*/
+
+
+
+
+    

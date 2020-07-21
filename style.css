@@ -4,6 +4,9 @@
 @import url("CSS/menu.css");
 /*Animation css*/
 @import url("sass/sass_animation/wiglle.scss");
+@import url("sass/sass_animation/dots-loading.scss");
+@import url("sass/sass_animation/zoom.scss");
+
 /*Font-Family*/
 
 
@@ -168,6 +171,7 @@ body {
 }
 
 .btn-prochainement{
+  display: flex;
   font-size: 2em;
   margin-bottom: 100px;
   margin-top: 0px;
@@ -207,5 +211,6 @@ body {
    text-decoration:none;
 }
 /*FOOTER*/
+
 
 
