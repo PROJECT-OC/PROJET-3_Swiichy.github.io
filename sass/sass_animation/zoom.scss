@@ -1,4 +1,4 @@
-.link
+.menu_cover__opac
 {
     display:inline-block;
     border:0;
@@ -8,11 +8,11 @@
     -ms-transform: scale(1); 
     -moz-transition: all 400ms ease-in;
     -moz-transform: scale(1);
-    transition: all 400ms ease-in;
+    transition: all 700ms ease-in;
     transform: scale(1);   
 
 }
-.link:hover
+.menu_cover__opac:hover
 {
     z-index: 2;
     -webkit-transition: all 400ms ease-in;
@@ -21,6 +21,6 @@
     -ms-transform: scale(1.5);   
     -moz-transition: all 400ms ease-in;
     -moz-transform: scale(1.5);
-    transition: all 400ms ease-in;
+    transition: all 600ms ease-in;
     transform: scale(1.2);
 }
