@@ -1,5 +1,5 @@
 main {
-    width: 50%;
+    width: 856px;
     height: auto;
     margin-bottom: 8.5%;
 }
@@ -16,13 +16,27 @@ a {
     color: #FACA49;
 }
 .main_title_1 {
+    margin-top: 0px;
     font-size: 2em;
+    font-family: 'Devonshire', cursive;
+    color: #3F141A;
+}
+
+.title_menu_1 {
+    font-size: 1.6em;
+    padding-top: 0%;
 }
 
 .title_content {
     padding-top: 3%;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-family: 'Caveat', cursive ;
 }
+
+.color_pl {
+    color: #3D1319;
+}
+
 
 ul {
     list-style: none;
@@ -33,8 +47,11 @@ ul {
     width: auto;
     display: flex;
     justify-content: space-between;
-    padding: 0% 4% 0% 4%;
-    font-size: 1.2em;
+    padding: 0% 10% 0% 10%;
+    font-size: 1.4em;
+    font-family: 'Caveat', cursive ;
+    font-weight: 400;
+    
 }
 
 .info_menu .list {
@@ -47,25 +64,28 @@ ul {
 }
 
 .bottom_menu {
-    padding: 0% 4% 0% 4%;
+    padding: 0% 10% 0% 10%;
     display: flex;
     flex-direction: row;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-family: 'Caveat', cursive ;
 }
 
 .title_bottom {
     display: flex;
     justify-content: center;
-    font-size: 1.7em;
+    font-size: 2em;
     font-weight: bold;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    font-family: 'Devonshire', cursive;
+    color: #3F141A;
 }
 
 .img_bottom {
     width: 40px;
     height: 40px;
-    padding-top: 2.1%;
+    padding-top: 3.2%;
     margin-right: 2%;
 }
 
@@ -78,14 +98,23 @@ ul {
 .title_menu_2 {
     font-size: 1.6em;
     padding-top: 10%;
+    padding-bottom: 5%;
+    font-family: 'Lora', serif;
 }
 
 .list_price_2 {
     width: auto;
     display: flex;
     justify-content: space-between;
-    padding: 0% 6.3% 0% 6.3%;
+    padding: 0% 15% 0% 15%;
     font-size: 1.2em;
+}
+
+.title_content_2 {
+    padding-top: 3%;
+    font-size: 1.3em;
+    font-family: 'Lora', serif;
+    font-weight: 600;
 }
 
 .margin_bottom_page {
@@ -116,6 +145,11 @@ ul {
     color: #8060D2;
 }
 
+.font-menu {
+    font-family: 'Lora', serif;
+}
+
+
 /*Menu 3*/
 .font_3 {
     background-color: #EDEFEF;
@@ -129,7 +163,7 @@ ul {
     width: auto;
     display: flex;
     justify-content: space-between;
-    padding: 0% 6.6% 0% 6.6%;
+    padding: 0% 15% 0% 15%;
     font-size: 1.2em;
 }
 
@@ -139,7 +173,16 @@ ul {
 
 /*Menu 4*/
 
+.list_price_4 {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 13% 0% 13%;
+    font-size: 1.2em;
+}
 
-
+.font_4 {
+    box-shadow:  5px 5px 5px 5px #8d8c8c;
+}
 
     
