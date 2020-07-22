@@ -1,7 +1,13 @@
+
 /*IMPORT*/
+/*Différent menu*/
+@import url("CSS/menu.css");
 /*Animation css*/
 @import url("sass/sass_animation/wiglle.scss");
+@import url("sass/sass_animation/dots-loading.scss");
+@import url("sass/sass_animation/zoom.scss");
 
+/*Font-Family*/
 
 
 /*BODY*/
@@ -38,6 +44,9 @@ body {
   text-align: center;
   color: #FACA49;
   font-weight: 1000;
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  letter-spacing: -4px;
 }
 /*HEADER*/
 
@@ -161,7 +170,8 @@ body {
   font-size: 2em;
 }
 
-h3 {
+.btn-prochainement{
+  display: flex;
   font-size: 2em;
   margin-bottom: 100px;
   margin-top: 0px;
@@ -201,5 +211,6 @@ h3 {
    text-decoration:none;
 }
 /*FOOTER*/
+
 
 

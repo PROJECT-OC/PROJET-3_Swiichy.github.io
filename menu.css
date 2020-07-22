@@ -1,5 +1,5 @@
 main {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin-bottom: 8.5%;
 }
@@ -33,7 +33,7 @@ ul {
     width: auto;
     display: flex;
     justify-content: space-between;
-    padding: 0% 4% 0% 4%;
+    padding: 0% 10% 0% 10%;
     font-size: 1.2em;
 }
 
@@ -47,7 +47,7 @@ ul {
 }
 
 .bottom_menu {
-    padding: 0% 4% 0% 4%;
+    padding: 0% 10% 0% 10%;
     display: flex;
     flex-direction: row;
     font-size: 1.2em;
@@ -84,7 +84,7 @@ ul {
     width: auto;
     display: flex;
     justify-content: space-between;
-    padding: 0% 6.3% 0% 6.3%;
+    padding: 0% 12.3% 0% 12.3%;
     font-size: 1.2em;
 }
 
@@ -118,6 +118,7 @@ ul {
 
 /*Menu 3*/
 .font_3 {
+    width: 40%;
     background-color: #EDEFEF;
 }
 .title_menu_3 {
@@ -129,7 +130,7 @@ ul {
     width: auto;
     display: flex;
     justify-content: space-between;
-    padding: 0% 6.6% 0% 6.6%;
+    padding: 0% 12.6% 0% 12.6%;
     font-size: 1.2em;
 }
 
@@ -138,8 +139,3 @@ ul {
 }
 
 /*Menu 4*/
-
-
-
-
-    
