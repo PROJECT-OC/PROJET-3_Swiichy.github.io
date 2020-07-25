@@ -116,9 +116,9 @@ body {
 }
 
 .menu_cover__title_2 {
-  background: linear-gradient(to right,#D8852E,#9861EF);
+  background: -webkit-linear-gradient(to right,#D8852E,#9861EF);
   background-clip: text;
-  -webkit-background-clip: text; /*web-kit a remettre si probleme de compatibilité*/
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Lora', serif;
   font-size: 1.4em;
@@ -129,13 +129,6 @@ body {
   color: #C77412;
   font-size: 2em;
   font-family: 'Lora', serif;
-}
-
-.menu_cover__title_2 {
-  background: linear-gradient(to right,#D8852E,#9861EF);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .menu_cover_3 {
