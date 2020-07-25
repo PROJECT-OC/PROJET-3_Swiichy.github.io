@@ -116,7 +116,7 @@ body {
 }
 
 .menu_cover__title_2 {
-  background: -webkit-linear-gradient(to right,#D8852E,#9861EF);
+  background: linear-gradient(to right,#D8852E,#9861EF);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
