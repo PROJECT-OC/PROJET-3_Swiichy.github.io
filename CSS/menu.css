@@ -104,6 +104,7 @@ ul {
 .menu_cover_title_2 {
     background: linear-gradient(to right,#DF871E,#B7718F,#8F5BFE);
     background-clip: text; /*web-kit a remettre si probleme de compatibilité*/
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Lora', serif;
     font-size: 2em;
@@ -132,6 +133,7 @@ ul {
 .menu_cover_title_3 {
     background: linear-gradient(to right,#0228DD,#4283EE,#85c4fc);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Dancing Script', cursive;
     font-size: 2.8em;
@@ -148,6 +150,7 @@ ul {
 .menu_cover_title_4 {
     background: linear-gradient(to right,#41963c,#b4f679);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Dancing Script', cursive;
     font-size: 2.5em;
