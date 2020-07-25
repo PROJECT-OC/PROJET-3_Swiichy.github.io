@@ -11,6 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 
 /*BODY*/
@@ -116,7 +117,7 @@ body {
 
 .menu_cover__title_2 {
   background: linear-gradient(to right,#D8852E,#9861EF);
-  -webkit-background-clip: text;
+  background-clip: text; /*web-kit a remettre si probleme de compatibilité*/
   -webkit-text-fill-color: transparent;
   font-family: 'Lora', serif;
   font-size: 1.4em;
@@ -175,6 +176,8 @@ body {
   background: linear-gradient(to right,#4A9E41,#BFFF7E);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.7em;
 }
 
 .menu_cover_byline_4 {
