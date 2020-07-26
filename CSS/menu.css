@@ -51,6 +51,7 @@ ul {
     justify-content: space-between;
     padding: 0% 15% 0% 15%;
     font-size: 1.4em;
+    color: #3D1319;
     font-family: 'Caveat', cursive ;
     font-weight: 400;
     
@@ -167,3 +168,4 @@ ul {
 .font-size_2 {
     font-size: 1.5em;
 }
+

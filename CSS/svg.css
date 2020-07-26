@@ -1,0 +1,135 @@
+/*Menu-1*/
+.svg-1_left {
+    position: relative;
+    left: -60px;
+    width: 190px;
+}
+
+.svg-1_right {
+    position: relative;
+    left: 60px;
+    width: 190px;
+}
+
+.svg-1_left-2 {
+    position: relative;
+    left: -30px;
+    width: 190px;
+}
+
+.svg-1_right-2 {
+    position: relative;
+    left: 35px;
+    width: 190px;
+}
+
+.svg-1_left-3 {
+    position: relative;
+    left: -10px;
+    width: 190px;
+}
+
+.svg-1_right-3 {
+    position: relative;
+    left: 15px;
+    width: 190px;
+}
+
+/*Menu-2*/
+.svg-2_left {
+    position: relative;
+    top: 5px;
+    transform: rotate(180deg);
+
+}
+
+.svg-2_right {
+    position: relative;
+    top: 5px;
+}
+
+.svg-2_left-2 {
+    position: relative;
+    top: 5px;
+    left: -32px;
+    transform: rotate(180deg);
+
+}
+
+.svg-2_right-2 {
+    position: relative;
+    right: -34px;
+    top: 5px;
+}
+
+.svg-2_left-3 {
+    position: relative;
+    top: 5px;
+    left: -15px;
+    transform: rotate(180deg);
+
+}
+
+.svg-2_right-3 {
+    position: relative;
+    right: -18px;
+    top: 5px;
+}
+
+/*Menu-3*/
+
+.svg-3_left {
+    position: relative;
+    bottom: -1px;
+    right: 40px;
+}
+
+.svg-3_right {
+    position: relative;
+    bottom: -1px;
+    left: 40px;
+}
+
+.svg-3_left-2 {
+    position: relative;
+    bottom: -1px;
+    right: 50px;
+}
+
+.svg-3_right-2 {
+    position: relative;
+    bottom: -1px;
+    left: 55px;
+}
+
+.svg-3_left-3 {
+    position: relative;
+    bottom: -1px;
+    right: 50px;
+}
+
+.svg-3_right-3 {
+    position: relative;
+    bottom: -1px;
+    left: 55px;
+}
+
+.img-leftside {
+    position: relative;
+    left: 56px;
+}
+
+.img-rightside {
+    position: relative;
+    right: 56px;
+}
+
+.img-leftside_2 {
+    position: relative;
+    right: 12px;
+}
+
+.img-rightside_2 {
+    position: relative;
+    left: 12px;
+}
