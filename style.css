@@ -227,4 +227,42 @@ body {
    text-decoration:none;
 }
 /*FOOTER*/
-/*Attente de SASS*/
+
+
+/*Responsive smartphone*/
+
+@media only screen and (max-device-width:480px)
+
+{
+  .title_principal {
+    font-size: 4em;
+  }
+
+  .grid {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .menu_cover-smart{
+    width: 680px;
+    height: 900px;
+  }
+
+  .link {
+    width: 680px;
+  }
+
+  .menu_cover__imgnote {
+    width: 96px;
+  }
+
+  
+
+
+
+
+
+}
