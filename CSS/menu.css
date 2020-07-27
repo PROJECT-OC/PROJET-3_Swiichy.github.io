@@ -176,6 +176,56 @@ ul {
     font-size: 2.5em;
   }
 
+@media only screen and (max-device-width:480px)
+{   
+    
+    .title_menu_1 {
+        font-size: 2em;
+    }
+
+    .main_title_1 {
+        margin-bottom: 20px;
+    }
+
+    .title_content {
+        font-size: 3.5em;
+    }
+
+    .list_price {
+        font-size: 2em; 
+        padding: 0% 0% 0% 0%;
+        margin: 0% 3% 0% 3%;
+    }
+
+    .bottom_menu {
+        padding: 0%;
+        margin-left: 3%;
+        font-size: 2em;
+    }
+
+    .img_bottom {
+        width: 60px;
+        height: 60px;
+        padding-top: 7.2%;
+    }
+
+    .title_bottom {
+        font-size: 3.5em;
+    }
+
+}
+
+
+   
+
+
+
+
+
+
+
+
+  
 
 
 
