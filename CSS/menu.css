@@ -3,11 +3,22 @@ main {
     height: auto;
     margin-bottom: 8.5%;
 }
-/*background-page*/
 
+.padding-list {
+    padding: 0% 16% 0% 16%;
+}
+
+.font-size {
+    font-size: 1.5em;
+}
+
+li {
+    padding-bottom: 20px;
+}
+
+/*background-page*/
 .font_1 {background-color: #FCDFDB;}.font_2 {background-color: #FFF5FE;}.font_3 {background-color: #EDEFEF;}.font_4 {box-shadow:  5px 5px 5px 5px #8d8c8c;}
 
-/*background-page*/
 
 /*Menu 1*/
 .img_menu_1 {
@@ -50,7 +61,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 0% 15% 0% 15%;
-    font-size: 1.4em;
+    font-size: 1.5em;
     color: #3D1319;
     font-family: 'Caveat', cursive ;
     font-weight: 400;
@@ -64,7 +75,7 @@ ul {
 
 
 .bottom_menu {
-    padding: 0% 10% 0% 10%;
+    padding: 0% 15% 0% 15%;
     display: flex;
     flex-direction: row;
     font-size: 1.4em;
@@ -90,7 +101,7 @@ ul {
 }
 
 .content_list {
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 /*Menu 2*/
 .font-menu_2 {
@@ -115,9 +126,8 @@ ul {
     width: auto;
     display: flex;
     justify-content: space-between;
-    padding: 0% 15% 0% 15%;
     margin-top: 1%;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .title_content_2 {
@@ -128,6 +138,7 @@ ul {
 }
 
 .color_2 {color: #C67412;}.color_pma {color: #D4934B;}.color_3 {color: #A56799;}.color_pdp {color: #AF77A4;}.color_4 {color: #6E4CCC;}.color_gs {color: #8060D2;}
+
 
 /*Menu 3*/
 
@@ -144,6 +155,14 @@ ul {
     padding-bottom: 10%;
 }
 
+.list_price_3 {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    font-size: 1.5em;
+}
+
 /*Menu 4*/
 .font-menu_4 {
     font-family: 'Devonshire', cursive;
@@ -157,15 +176,7 @@ ul {
     font-size: 2.5em;
   }
 
-.padding-list {
-    padding: 0% 16% 0% 16%;
-}
 
-.font-size {
-    font-size: 1.6em;
-}
 
-.font-size_2 {
-    font-size: 1.5em;
-}
+
 
