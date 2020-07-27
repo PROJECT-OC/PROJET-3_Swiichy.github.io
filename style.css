@@ -4,10 +4,10 @@
 @import url("CSS/menu.css");
 @import url("CSS/svg.css");
 /*Animation css*/
-@import url('sass/sass_animation/_dots-loading.css');
-@import url('sass/sass_animation/_soulign.css');
-@import url('sass/sass_animation/_wiglle.css');
-@import url('sass/sass_animation/_zoom.css');
+@import url('sass/sass_animation/dots-loading.css');
+@import url('sass/sass_animation/soulign.css');
+@import url('sass/sass_animation/wiglle.css');
+@import url('sass/sass_animation/zoom.css');
 /*Font-Family*/
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Devonshire&display=swap');
@@ -343,117 +343,7 @@ margin: 0px;
 
 /*Menu 3*/
 
-.btn-soulign_4 {
-  display: inline;
-  color: inherit;
-  text-decoration: none;
-  background: linear-gradient(to top,#123EA5 0%,#123EA5 4px, transparent 5px) no-repeat;
-  background-size: 0 100% ;
-  transition: background-size .3s;
-  padding-bottom: 5px;
-}
-
-.btn-soulign_4:hover {
-  margin-bottom: 1px;
-  background-size: 100% 100% ;
-}
-
-.btn-soulign_5 {
-  display: inline;
-  color: inherit;
-  text-decoration: none;
-  background: linear-gradient(to top,#4F98F2 0%,#4F98F2 4px, transparent 5px) no-repeat;
-  background-size: 0 100% ;
-  transition: background-size .3s;
-  padding-bottom: 5px;
-}
-
-.btn-soulign_5:hover {
-  margin-bottom: 1px;
-  background-size: 100% 100% ;
-}
-
-.btn-soulign_6 {
-  display: inline;
-  color: inherit;
-  text-decoration: none;
-  background: linear-gradient(to top,#229DF9 0%,#229DF9 4px, transparent 5px) no-repeat;
-  background-size: 0 100% ;
-  transition: background-size .3s;
-  padding-bottom: 5px;
-}
-
-.btn-soulign_6:hover {
-  margin-bottom: 1px;
-  background-size: 100% 100% ;
-}
-
-.btn-soulign_7 {
-  display: inline;
-  color: inherit;
-  text-decoration: none;
-  background: linear-gradient(to top,#0E0E0E 0%,#0E0E0E 4px, transparent 5px) no-repeat;
-  background-size: 0 100% ;
-  transition: background-size .3s;
-  padding-bottom: 5px;
-}
-
-.btn-soulign_7:hover {
-  margin-bottom: 1px;
-  background-size: 100% 100% ;
-}
-
-.btn-wiggle:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
-
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
-}
-
-.menu_cover__opac
-{
-    display:inline-block;
-    border:0;
-    -webkit-transition: all 400ms ease-in;
-    -webkit-transform: scale(1); 
-    -ms-transition: all 400ms ease-in;
-    -ms-transform: scale(1); 
-    -moz-transition: all 400ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 700ms ease-in;
-    transform: scale(1);   
-
-}
-.menu_cover__opac:hover
-{
-    z-index: 2;
-    -webkit-transition: all 400ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 400ms ease-in;
-    -ms-transform: scale(1.5);   
-    -moz-transition: all 400ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 600ms ease-in;
-    transform: scale(1.2);
-}
+/*Animation css*/
 
 /*Responsive smartphone*/
 
@@ -501,10 +391,6 @@ margin: 0px;
   .footer {
     font-size: 2em;
   }
-
-
-
-
 
 
 }
