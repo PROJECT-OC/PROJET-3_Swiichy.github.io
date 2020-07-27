@@ -178,8 +178,8 @@ ul {
 
 @media only screen and (max-device-width:480px)
 {   
-
-    .font_1{
+    /*Menu-1*/
+    main {
         width: 100%;
         height: 100%;
     }
@@ -205,7 +205,7 @@ ul {
     .bottom_menu {
         padding: 0%;
         margin-left: 3%;
-        font-size: 2em;
+        font-size: 2.3em;
     }
 
     .img_bottom {
@@ -221,7 +221,29 @@ ul {
     .title_bottom p {
         margin-top: 0px;
     }
-}
+
+    /*Menu-2*/
+    .title_menu {
+        font-size: 3em;
+    }
+    
+    .title_content_2 {
+        font-size: 2.3em;
+    }
+    
+    .list_price_2 {
+        font-size: 2em; 
+        padding: 0% 0% 0% 0%;
+        margin: 0% 3% 0% 3%;
+    }
+
+    /*Menu-3*/
+    
+    .list_price_3 {
+        font-size: 2.5em;
+        padding: 0% 0% 0% 0%;
+        margin: 0% 3% 0% 3%;
+    }
 
 
    
@@ -233,7 +255,7 @@ ul {
 
 
 
-  
+}
 
 
 
