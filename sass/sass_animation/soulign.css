@@ -1,130 +1,189 @@
 /*Menu 1*/
-.btn-soulign {
-    display: inline;
+.containt-subline_menu1 {
+    position: relative;
     text-decoration: none;
-    background: linear-gradient(to top,#3D1319 0%,#3D1319 4px, transparent 5px) no-repeat;
-    background-size: 0 100% ;
-    transition: background-size .3s;
-    padding-bottom: 5px;
-}
+    color: #3D1319;
+    padding: 2px 0;
+  }
+   
+  .containt-subline_menu1:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 10px;
+    background: #3D1319;
+    transition: width 800ms ease-in-out;
+  }
+   
+  .containt-subline_menu1:hover:after {
+    width: 100%;
+  }
 
-.btn-soulign:hover {
-    margin-bottom: 1px;
-    background-size: 100% 100% ;
-}
-
-.padding-list {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-/*Menu 2*/
-/*Pour se mettre en appétit*/
-.btn-soulign_1 {
-    display: inline;
-    color: inherit;
+  /*Menu-2*/
+  .containt-subline_menu-2_1 {
+    position: relative;
     text-decoration: none;
-    background: linear-gradient(to top, #D4934B 0%,#D4934B 4px, transparent 5px) no-repeat;
-    background-size: 0 100% ;
-    transition: background-size .3s;
-    padding-bottom: 5px;
-}
+    color: #C67412;
+    padding: 4px 0;
+  }
+   
+  .containt-subline_menu-2_1:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 10px;
+    background: #C67412;
+    transition: width 800ms ease-in-out;
+  }
+   
+  .containt-subline_menu-2_1:hover:after {
+    width: 100%;
+  }
 
-.btn-soulign_1:hover {
-    margin-bottom: 1px;
-    background-size: 100% 100% ;
-}
-/*Plaisir des papilles*/
-
-.btn-soulign_2 {
-    display: inline;
-    color: inherit;
+  .containt-subline_menu-2_2 {
+    position: relative;
     text-decoration: none;
-    background: linear-gradient(to top, #B777A4 0%,#B777A4 4px, transparent 5px) no-repeat;
-    background-size: 0 100% ;
-    transition: background-size .3s;
-    padding-bottom: 5px;
-}
+    color: #A56799;
+    padding: 4px 0;
+  }
+   
+  .containt-subline_menu-2_2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 10px;
+    background: #A56799;
+    transition: width 800ms ease-in-out;
+  }
+   
+  .containt-subline_menu-2_2:hover:after {
+    width: 100%;
+  }
 
-.btn-soulign_2:hover {
-    margin-bottom: 1px;
-    background-size: 100% 100% ;
-}
-/*Gourmandise sucrées*/
-
-.btn-soulign_3 {
-    display: inline;
-    color: inherit;
+  .containt-subline_menu-2_3 {
+    position: relative;
     text-decoration: none;
-    background: linear-gradient(to top, #8060D2 0%,#8060D2 4px, transparent 5px) no-repeat;
-    background-size: 0 100% ;
-    transition: background-size .3s;
-    padding-bottom: 5px;
-}
+    color: #6E4CCC;
+    padding: 4px 0;
+  }
+   
+  .containt-subline_menu-2_3:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 10px;
+    background: #6E4CCC;
+    transition: width 800ms ease-in-out;
+  }
+   
+  .containt-subline_menu-2_3:hover:after {
+    width: 100%;
+  }
 
-.btn-soulign_3:hover {
-    margin-bottom: 1px;
-    background-size: 100% 100% ;
-}
+  /*Menu-3*/
 
-/*Menu 3*/
-
-.btn-soulign_4 {
-    display: inline;
-    color: inherit;
+  .containt-subline_menu-3_1 {
+    position: relative;
     text-decoration: none;
-    background: linear-gradient(to top,#123EA5 0%,#123EA5 4px, transparent 5px) no-repeat;
-    background-size: 0 100% ;
-    transition: background-size .3s;
-    padding-bottom: 5px;
-}
+    color: black;
+    padding: 4px 0;
+  }
+   
+  .containt-subline_menu-3_1:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 10px;
+    background: #123EA5;
+    transition: width 800ms ease-in-out;
+  }
+   
+  .containt-subline_menu-3_1:hover:after {
+    width: 100%;
+  }
 
-.btn-soulign_4:hover {
-    margin-bottom: 1px;
-    background-size: 100% 100% ;
-}
-
-.btn-soulign_5 {
-    display: inline;
-    color: inherit;
+  .containt-subline_menu-3_2 {
+    position: relative;
     text-decoration: none;
-    background: linear-gradient(to top,#4F98F2 0%,#4F98F2 4px, transparent 5px) no-repeat;
-    background-size: 0 100% ;
-    transition: background-size .3s;
-    padding-bottom: 5px;
-}
+    color: black;
+    padding: 4px 0;
+  }
+   
+  .containt-subline_menu-3_2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 10px;
+    background: #4F98F2;
+    transition: width 800ms ease-in-out;
+  }
+   
+  .containt-subline_menu-3_2:hover:after {
+    width: 100%;
+  }
 
-.btn-soulign_5:hover {
-    margin-bottom: 1px;
-    background-size: 100% 100% ;
-}
-
-.btn-soulign_6 {
-    display: inline;
-    color: inherit;
+  .containt-subline_menu-3_3 {
+    position: relative;
     text-decoration: none;
-    background: linear-gradient(to top,#229DF9 0%,#229DF9 4px, transparent 5px) no-repeat;
-    background-size: 0 100% ;
-    transition: background-size .3s;
-    padding-bottom: 5px;
-}
+    color: black;
+    padding: 4px 0;
+  }
+   
+  .containt-subline_menu-3_3:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 10px;
+    background: #229DF9;
+    transition: width 800ms ease-in-out;
+  }
+   
+  .containt-subline_menu-3_3:hover:after {
+    width: 100%;
+  }
 
-.btn-soulign_6:hover {
-    margin-bottom: 1px;
-    background-size: 100% 100% ;
-}
+  /*Menu-4*/
 
-.btn-soulign_7 {
-    display: inline;
-    color: inherit;
+  .containt-subline_menu-4 {
+    position: relative;
     text-decoration: none;
-    background: linear-gradient(to top,#0E0E0E 0%,#0E0E0E 4px, transparent 5px) no-repeat;
-    background-size: 0 100% ;
-    transition: background-size .3s;
-    padding-bottom: 5px;
-}
-
-.btn-soulign_7:hover {
-    margin-bottom: 1px;
-    background-size: 100% 100% ;
-}
+    color: black;
+    padding: 4px 0;
+  }
+   
+  .containt-subline_menu-4:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 10px;
+    background: linear-gradient(to right,#4A9E41,#BFFF7E);
+    transition: width 800ms ease-in-out;
+  }
+   
+  .containt-subline_menu-4:hover:after {
+    width: 100%;
+  }
