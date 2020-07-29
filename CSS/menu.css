@@ -148,7 +148,7 @@ ul {
 }
 
 .title_content_2 {
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-family: 'Lora', serif;
     font-weight: 600;
 }
@@ -204,6 +204,10 @@ ul {
 @media only screen and (max-device-width:480px)
 {   
     /*Menu-1*/
+
+    body {
+        text-align: left;
+    }
     main {
         width: 100%;
         height: 100%;
