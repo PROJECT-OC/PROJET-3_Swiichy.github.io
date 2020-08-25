@@ -84,11 +84,6 @@ ul {
     
 }
 
-.info_menu .list {
-    display: flex;
-    flex-direction: row;
-}
-
 .title_bottom {
     display: flex;
     justify-content: center;
@@ -110,13 +105,11 @@ ul {
 
 
 /*Menu 2*/
-.font-menu_2 {
-    font-family: 'Lora', serif;
-}
 
 .title_menu {
     padding-top: 10%;
     padding-bottom: 5%;
+    font-family: 'Lora', serif;
 }
 
 .menu_cover_title_2 {
