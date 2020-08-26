@@ -24,12 +24,12 @@ animation-timing-function: ease-in-out;
 
 .loading span:nth-child(2){
   background-color: #FACA49;
-  animation-delay: 0.4;
+  animation-delay: 400ms;
 }
 
 .loading span:nth-child(3){
   background-color: #FACA49;
-  animation-delay: 0.8;
+  animation-delay: 800ms;
 }
 
 @keyframes dots {
