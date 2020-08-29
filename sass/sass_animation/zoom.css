@@ -23,4 +23,5 @@
     -moz-transform: scale(1.5);
     transition: all 600ms ease-in;
     transform: scale(1.2);
+    opacity: 0.6;
 }
