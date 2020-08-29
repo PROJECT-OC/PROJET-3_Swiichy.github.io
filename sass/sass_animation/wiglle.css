@@ -1,11 +1,9 @@
 .btn-wiggle:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;/*Nom de l'animation shake / 0.82 durée de l'animation / L'animation respectera les règles qui s'appliquent à forwards et backwards, entraînant ainsi l'extension des propriétés de l'animation dans les deux directions.
+  transform: translate3d(0, 0, 0);/*Positionnement de départ*/
 }
 
-@keyframes shake {
+@keyframes shake {/*Ajout d'une keyframe pour cibler le moments ou on modifie le placement du texte se qui donne cette effet de mouvement de gauche a droite*/
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
   }

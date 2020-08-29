@@ -1,44 +1,44 @@
+/*Style de l'animation*/
 .loading {
   width: auto;
-  height: 25px;
-  position: relative;
+  height: 25px; /*Dimension de la div*/
+  position: relative;/*Positionnement de la div pour avoir un meilleur rendu visuel et un alignement parfait avec le texte prochainement*/
   bottom: 1px;
   left: 15px;
 }
 
+/*Parametres de l'animation*/
 .loading span {
 width: 10px;
 height: 10px;
-margin: 0 3px;
+margin: 0 3px;/*Pour ajouter un espacement entre les différentes span*/
 background-color: #FACA49;
 border-radius: 50%;
 display: inline-block;
-animation-name: dots;
+animation-name: dots;/*Ajouts de la valeur dots pour le keyframes*/
 -moz-animation-name: dots;
-animation-duration: 2s;
+animation-duration: 2s;/*Durée de l'animation complete*/
 -moz-animation-duration: 2s;
-animation-iteration-count: infinite;
+animation-iteration-count: infinite;/*L'animation sera répétée à l'infini*/
 -moz-animation-timing-function: ease-in-out;
-animation-timing-function: ease-in-out;
+animation-timing-function: ease-in-out;/*L'animation commence lentement, accèlere puis ralentit à nouveau avant la fin*/
 }
-
+/*nth-child(2) permet de cibler le deuxieme span donc le deuxieme élément enfants*/
 .loading span:nth-child(2){
   background-color: #FACA49;
-  animation-delay: 400ms;
+  animation-delay: 400ms;/*Départ du deuxieme span*/
 }
-
+/*nth-child(3) permet de cibler le deuxieme span donc le troisieme élément enfants*/
 .loading span:nth-child(3){
   background-color: #FACA49;
-  animation-delay: 800ms;
+  animation-delay: 800ms;/*Départ du troisieme span*/
 }
 
 @keyframes dots {
-    50% {
-      opacity: 0;
-      transform: scale(0.7) translateY(10px);
+    50% { /*A 50% de l'animation donc a la moitié de celle-ci opacity/transform rentre en jeux*/
+      opacity: 0;/*Ajout de opacity 0 pour avoir un effet de disparition des élements pour un rendu plus esthétique*/
+      transform: scale(0.7) translateY(10px);/*Transform : scale(0.7) pour garder des point d'une taille correcte pour l'utilisateur 
+      TranslateY : Positionnement des point a la déscente 10px semble être correct avec l'animation recherché*/
   }
 }
 
-.title-prochainement {
-margin: 0px;
-}

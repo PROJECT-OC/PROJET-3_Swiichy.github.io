@@ -1,12 +1,10 @@
 .menu_cover__opac
 {
-    display:inline-block;
-    border:0;
-    -webkit-transition: all 400ms ease-in;
+    -webkit-transition: all 700ms ease-in;
     -webkit-transform: scale(1); 
-    -ms-transition: all 400ms ease-in;
+    -ms-transition: all 700ms ease-in;
     -ms-transform: scale(1); 
-    -moz-transition: all 400ms ease-in;
+    -moz-transition: all 700ms ease-in;
     -moz-transform: scale(1);
     transition: all 700ms ease-in;
     transform: scale(1);   
@@ -14,13 +12,12 @@
 }
 .menu_cover__opac:hover
 {
-    z-index: 2;
-    -webkit-transition: all 400ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 400ms ease-in;
-    -ms-transform: scale(1.5);   
-    -moz-transition: all 400ms ease-in;
-    -moz-transform: scale(1.5);
+    -webkit-transition: all 600ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 600ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 600ms ease-in;
+    -moz-transform: scale(1.2);
     transition: all 600ms ease-in;
     transform: scale(1.2);
     opacity: 0.6;
