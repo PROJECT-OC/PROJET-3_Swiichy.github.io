@@ -3,7 +3,7 @@
     position: relative;
     text-decoration: none;
     color: #3D1319;
-    padding: 2px 0;
+    padding: 4px 0;
   }
    
   .containt-subline_menu1:after {
@@ -15,7 +15,7 @@
     height: 4px;
     border-radius: 10px;
     background: #3D1319;
-    transition: width 800ms ease-in-out;
+    transition: 800ms ease-in-out;
   }
    
   .containt-subline_menu1:hover:after {
@@ -39,7 +39,7 @@
     height: 4px;
     border-radius: 10px;
     background: #C67412;
-    transition: width 800ms ease-in-out;
+    transition: 800ms ease-in-out;
   }
    
   .containt-subline_menu-2_1:hover:after {
@@ -62,7 +62,7 @@
     height: 4px;
     border-radius: 10px;
     background: #A56799;
-    transition: width 800ms ease-in-out;
+    transition: 800ms ease-in-out;
   }
    
   .containt-subline_menu-2_2:hover:after {
@@ -85,7 +85,7 @@
     height: 4px;
     border-radius: 10px;
     background: #6E4CCC;
-    transition: width 800ms ease-in-out;
+    transition: 800ms ease-in-out;
   }
    
   .containt-subline_menu-2_3:hover:after {
@@ -110,7 +110,7 @@
     height: 4px;
     border-radius: 10px;
     background: #123EA5;
-    transition: width 800ms ease-in-out;
+    transition: 800ms ease-in-out;
   }
    
   .containt-subline_menu-3_1:hover:after {
@@ -133,7 +133,7 @@
     height: 4px;
     border-radius: 10px;
     background: #4F98F2;
-    transition: width 800ms ease-in-out;
+    transition: 800ms ease-in-out;
   }
    
   .containt-subline_menu-3_2:hover:after {
@@ -156,7 +156,7 @@
     height: 4px;
     border-radius: 10px;
     background: #229DF9;
-    transition: width 800ms ease-in-out;
+    transition: 800ms ease-in-out;
   }
    
   .containt-subline_menu-3_3:hover:after {
@@ -181,7 +181,7 @@
     height: 4px;
     border-radius: 10px;
     background: linear-gradient(to right,#4A9E41,#BFFF7E);
-    transition: width 800ms ease-in-out;
+    transition: 800ms ease-in-out;
   }
    
   .containt-subline_menu-4:hover:after {
