@@ -1,7 +1,6 @@
 /*Menu 1*/
 .containt-subline_menu1 {
     position: relative;
-    text-decoration: none;
     color: #3D1319;
     padding: 4px 0;
   }
@@ -25,7 +24,6 @@
   /*Menu-2*/
   .containt-subline_menu-2_1 {
     position: relative;
-    text-decoration: none;
     color: #C67412;
     padding: 4px 0;
   }
@@ -48,7 +46,6 @@
 
   .containt-subline_menu-2_2 {
     position: relative;
-    text-decoration: none;
     color: #A56799;
     padding: 4px 0;
   }
@@ -71,7 +68,6 @@
 
   .containt-subline_menu-2_3 {
     position: relative;
-    text-decoration: none;
     color: #6E4CCC;
     padding: 4px 0;
   }
@@ -96,7 +92,6 @@
 
   .containt-subline_menu-3_1 {
     position: relative;
-    text-decoration: none;
     color: black;
     padding: 4px 0;
   }
@@ -119,7 +114,6 @@
 
   .containt-subline_menu-3_2 {
     position: relative;
-    text-decoration: none;
     color: black;
     padding: 4px 0;
   }
@@ -142,7 +136,6 @@
 
   .containt-subline_menu-3_3 {
     position: relative;
-    text-decoration: none;
     color: black;
     padding: 4px 0;
   }
@@ -167,7 +160,6 @@
 
   .containt-subline_menu-4 {
     position: relative;
-    text-decoration: none;
     color: black;
     padding: 4px 0;
   }

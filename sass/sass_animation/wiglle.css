@@ -1,5 +1,5 @@
 .btn-wiggle:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97);/*Nom de l'animation shake / 0.82 durée de l'animation */
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97);/*Nom de l'animation shake / 0.82 durée de l'animation / Cubic-bezier déninit ma courbe continue*/
 }
 
 @keyframes shake {/*Ajout d'une keyframe pour cibler le moments ou on modifie le placement du texte se qui donne cette effet de mouvement de gauche a droite*/

@@ -1,23 +1,23 @@
 .menu_cover__opac
 {
-    -webkit-transition: all 700ms ease-in;
-    -webkit-transform: scale(1); 
-    -ms-transition: all 700ms ease-in;
-    -ms-transform: scale(1); 
-    -moz-transition: all 700ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 700ms ease-in;
+    -webkit-transition: all 700ms ease-in;/*Compatibilité navigateur*/
+    -webkit-transform: scale(1); /*Compatibilité navigateur*/
+    -ms-transition: all 700ms ease-in;/*Compatibilité navigateur*/
+    -ms-transform: scale(1); /*Compatibilité navigateur*/
+    -moz-transition: all 700ms ease-in;/*Compatibilité navigateur*/
+    -moz-transform: scale(1);/*Compatibilité navigateur*/
+    transition: all 700ms ease-in; /*Permet de contrôler la vitesse d'animation - Ease-in : lent sur le début permet d'accelérer sur la fin*/
     transform: scale(1);   
 
 }
 .menu_cover__opac:hover
 {
-    -webkit-transition: all 600ms ease-in;
-    -webkit-transform: scale(1.2);
-    -ms-transition: all 600ms ease-in;
-    -ms-transform: scale(1.2);   
-    -moz-transition: all 600ms ease-in;
-    -moz-transform: scale(1.2);
+    -webkit-transition: all 600ms ease-in;/*Compatibilité navigateur*/
+    -webkit-transform: scale(1.2);/*Compatibilité navigateur*/
+    -ms-transition: all 600ms ease-in;/*Compatibilité navigateur*/
+    -ms-transform: scale(1.2);   /*Compatibilité navigateur*/
+    -moz-transition: all 600ms ease-in;/*Compatibilité navigateur*/
+    -moz-transform: scale(1.2);/*Compatibilité navigateur*/
     transition: all 600ms ease-in;
     transform: scale(1.2);
     opacity: 0.6;
