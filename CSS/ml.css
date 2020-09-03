@@ -1,0 +1,38 @@
+/*CSS Page mention légales*/
+
+.containt-ml {
+    display: flex;
+    flex-direction: column;
+    margin : 0 0 5% 2%;
+    justify-content: center;
+}
+
+.containt-ml p,.containt-ml ul{
+    max-width: 50%;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.containt-ml h1 {
+    max-width: 50%;
+    text-align: center;
+}
+
+.bold-article {
+    font-weight: bold;
+}
+
+@media only screen and (max-width:480px) {
+
+    .containt-ml {
+        margin: 0 2% 12% 2%;
+    }
+    .containt-ml p,.containt-ml ul{
+        max-width: 100%;
+        text-align: left;
+        font-size: 1.2em;
+    }
+    .containt-ml h1 {
+        max-width: 100%;
+    }
+}

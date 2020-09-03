@@ -1,6 +1,7 @@
 
 /*IMPORT*/
 /*Différent menu*/
+@import url("CSS/ml.css");
 @import url("CSS/menu.css");
 /*Animation css*/
 @import url('sass/sass_animation/dots-loading.css');
